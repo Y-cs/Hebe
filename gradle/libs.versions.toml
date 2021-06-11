@@ -1,0 +1,7 @@
+[versions]
+giava="30.1.1-jre"
+
+[libraries]
+guava={group="com.google.guava" ,name="guava",version.ref="giava"}
+
+[bundles]

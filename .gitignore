@@ -10,9 +10,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-download/
 unzip/
-
+download/
 
 # External tool builders
 .externalToolBuilders/

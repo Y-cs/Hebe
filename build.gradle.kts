@@ -1,10 +1,6 @@
 group = "org.hebe"
 version = "0.1"
 
-plugins {
-    java
-}
-
 allprojects {
     /**
      * api                              compile

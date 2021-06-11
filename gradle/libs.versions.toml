@@ -1,0 +1,20 @@
+[versions]
+#更花哨的版本声明
+#require:需要的版本
+#strictly:严格版
+#prefer:首选版本
+#reject:被拒绝的版本列表
+#rejectAll: 拒绝所有版本的布尔值
+#my-lib = { strictly = "[1.0, 2.0[", prefer = "1.2" }
+guava = "30.1.1-jre"
+[libraries]
+#各种声明方式
+#my-lib = "com.mycompany:mylib:1.4"
+#my-other-lib = { module = "com.mycompany:other", version="1.4" }
+#my-other-lib2 = { group = "com .mycompany", name="alternate", version="1.4" }
+#mylib-full-format = { group = "com.mycompany", name="alternate", version={ require = "1.4" } }
+#my-lib = { group = "com.mycompany", name="mylib", version.ref="some" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+
+
+[bundles]
